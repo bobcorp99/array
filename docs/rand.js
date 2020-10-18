@@ -16,22 +16,22 @@ function randomMath() {
         let expression = num1 + ' + ' + num2 + ' = ? '
         let clientAnswer = +prompt(expression)
         let answer = num1 + num2
-        console.log(expression, (clientAnswer == answer) ? 'Siz tori topdiz: ' + clientAnswer : 'Siz notori topdiz : ' + clientAnswer + 'tori javob: ' + answer); 
+        console.log(expression, (clientAnswer == answer) ? ' Siz tori topdiz: ' + clientAnswer : ' Siz notori topdiz : ' + clientAnswer + ' tori javob: ' + answer); 
     } else if(rand == 4 || rand == 6) {
         let expression = num1 + ' - ' + num2 + ' = ? '
         let clientAnswer = +prompt(expression)
         let answer = num1 - num2
-        console.log(expression, (clientAnswer == answer) ? 'Siz tori topdiz: ' + clientAnswer : 'Siz notori topdiz : ' + clientAnswer + 'tori javob: ' + answer); 
+        console.log(expression, (clientAnswer == answer) ? 'Siz tori topdiz: ' + clientAnswer : 'Siz notori topdiz : ' + clientAnswer + ' tori javob: ' + answer); 
     } else if (rand == 5 || rand == 2) {
         let expression = num1 + ' / ' + num2 + ' = ? '
         let clientAnswer = +prompt(expression)
         let answer = num1 / num2
-        console.log(expression, (clientAnswer == answer) ? 'Siz tori topdiz: ' + clientAnswer : 'Siz notori topdiz : ' + clientAnswer + 'tori javob: ' + answer);
+        console.log(expression, (clientAnswer == answer) ? 'Siz tori topdiz: ' + clientAnswer : 'Siz notori topdiz : ' + clientAnswer + ' tori javob: ' + answer);
     } else {
         let expression = num1 + ' * ' + num2 + ' = ? '
         let clientAnswer = +prompt(expression)
         let answer = num1 * num2
-        console.log(expression, (clientAnswer == answer) ? 'Siz tori topdiz: ' + clientAnswer : 'Siz notori topdiz : ' + clientAnswer + 'tori javob: ' + answer); 
+        console.log(expression, (clientAnswer == answer) ? 'Siz tori topdiz: ' + clientAnswer : 'Siz notori topdiz : ' + clientAnswer + ' tori javob: ' + answer); 
     }
 
 }
